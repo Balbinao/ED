@@ -1,0 +1,35 @@
+Árvores
+
+Existe um nó especial, a raiz, e os outros nós formam conjuntos disjuntos.
+grau de nó é o numero de filhos de uma arvore.
+filhos de um nó x são as raizes das sub-arvores do nó X. Neste caso o X é o Pai de seus filhos.
+Nivel de um nó: recorrencia, raiz no nivel 0, filhos no nivel k, k+1
+Altura ou profunidade de uma árvore: é o nível máximo dos nós na árvore.
+Folha é o nó que nao tem filhos
+
+O caminho é uma sequencia de nós distintos e em nós consecutivos existe a relação "é filho de"
+ou "é pai de" no caminho da árvore
+
+O comprimento do caminho vk de vértices se obtem pela sequencia de k-1 pares.
+
+
+
+Árvores Binárias
+
+conjunto finito de elementos que esta vázio ou esta particionado em tres subconjuntos disjuntos.
+O primeiro subconjunto contem um elemento, a raiz da árvore.
+cada nó tem no maximo 2 sucessores.
+quem é menor ou igual ao pai(raiz) esta a esquerda e quem é maior que o pai(raiz) esta a direita.
+
+
+pai(i) = [i/2]. Se i é 1 entao ele é a raiz da árvore.
+filho_esq(i) = 2i. se 21 é maior que n entao i não tem filho da esquerda.
+filho_dir(i) = 2i+1. Se 2i+1 é maior que n entao i nao tem filho da direita.
+
+
+No percurso a raiz é sempre o foco das atenções.
+esq - r - dir = in order
+r - esq - dir = pre order
+esq - dir - r = pos order
+
+

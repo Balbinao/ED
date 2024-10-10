@@ -1,0 +1,17 @@
+fila com vetor
+
+considerar vetor como uma estrutura circular
+
+inserção: atualiza a posição do ultimo
+
+remoção: atualiza a posição do primeiro
+
+importante: não apagamos os dados, somente sobrescrevemos
+
+
+proxima = (posição +1)%tamanho
+0+1%5
+
+definição fila cheia ou vazia{
+
+}
